@@ -33,10 +33,10 @@ class LastProduct extends Component {
 						</div>
 						<div className="card-body">
 							<div className="text-center">
-								{last.name}
-								<p>{last.description} </p>
-								<p>${last.price} </p>
-								<a target="_blank" rel="nofollow" href="/">View product detail</a>
+							 <p>Nombre:	{last.name}</p>
+								<p>Descripcion: {last.description} </p>
+								<p>Precio: ${last.price} </p>
+							
 							</div>
 						</div>
 					</div>)
