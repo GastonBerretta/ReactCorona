@@ -22,12 +22,12 @@ const TableRow = (props) => {
 			<td>
 			<ul>
 			{props.sale.cart.map(function(e){
-			return<li key={e.id}> ${ e.price }</li>
+			return<li key={e.id}> ${e.quantity * e.price }</li>
 			})}
 			</ul>
 			</td>
 			<td>
-				${props.sale.total}
+				${props.sale.total-200}
 			</td>
 			
 			<td>
